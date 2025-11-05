@@ -189,6 +189,9 @@ test.describe('Account Factory Pattern Demo', () => {
       expect(subgridControl.isDisabled).toBe(false);
       console.log(`✓ Contacts subgrid control is visible and enabled`);
 
+      // Refresh subgrid to ensure data is loaded
+      await subGrid.refresh('Contacts');
+
       // Now use SubGrid module to get record count
       const contactCount = await subGrid.getRecordCount('Contacts');
       expect(contactCount).toBe(2);
