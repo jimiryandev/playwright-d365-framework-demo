@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImportExportXml version="9.2.25102.151" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" OrganizationVersion="9.2.25102.151" OrganizationSchemaType="Standard" CRMServerServiceabilityVersion="9.2.25102.00151">
+  <SolutionManifest>
+    <UniqueName>PlaywrightTest</UniqueName>
+    <LocalizedNames>
+      <LocalizedName description="Playwright Test" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions />
+    <Version>1.0.0.0</Version>
+    <Managed>0</Managed>
+    <Publisher>
+      <UniqueName>JR</UniqueName>
+      <LocalizedNames>
+        <LocalizedName description="JR" languagecode="1033" />
+      </LocalizedNames>
+      <Descriptions />
+      <EMailAddress xsi:nil="true"></EMailAddress>
+      <SupportingWebsiteUrl xsi:nil="true"></SupportingWebsiteUrl>
+      <CustomizationPrefix>jr</CustomizationPrefix>
+      <CustomizationOptionValuePrefix>12345</CustomizationOptionValuePrefix>
+      <Addresses>
+        <Address>
+          <AddressNumber>1</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+        <Address>
+          <AddressNumber>2</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+      </Addresses>
+    </Publisher>
+    <RootComponents>
+      <RootComponent type="1" schemaName="account" behavior="0" />
+      <RootComponent type="1" schemaName="contact" behavior="0" />
+      <RootComponent type="62" schemaName="jr_PlaywrightTest" behavior="0" />
+      <RootComponent type="80" schemaName="jr_PlaywrightTest" behavior="0" />
+    </RootComponents>
+    <MissingDependencies>
+      <MissingDependency>
+        <Required type="1" schemaName="account" displayName="Account" parentSchemaName="" solution="PowerPages_RuntimeCoreDependencies (1.0.2305.1)" />
+        <Dependent type="1" schemaName="account" displayName="Account" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="adx_externalidentity" displayName="External Identity" solution="PowerPages_RuntimeCore (1.0.2407.1)">
+          <package appName="Power Pages Core Package" version="1.1.2508.192">PowerPages_Core (1.1.2508.192)</package>
+        </Required>
+        <Dependent type="1" schemaName="contact" displayName="Contact" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="adx_invitation" displayName="Invitation" solution="PowerPages_RuntimeCore (1.0.2407.1)">
+          <package appName="Power Pages Core Package" version="1.1.2508.192">PowerPages_Core (1.1.2508.192)</package>
+        </Required>
+        <Dependent type="1" schemaName="account" displayName="Account" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="adx_invitation" displayName="Invitation" solution="PowerPages_RuntimeCore (1.0.2407.1)">
+          <package appName="Power Pages Core Package" version="1.1.2508.192">PowerPages_Core (1.1.2508.192)</package>
+        </Required>
+        <Dependent type="1" schemaName="contact" displayName="Contact" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="adx_webformsession" displayName="Multistep Form Session" solution="PowerPages_RuntimeCore (1.0.2407.1)">
+          <package appName="Power Pages Core Package" version="1.1.2508.192">PowerPages_Core (1.1.2508.192)</package>
+        </Required>
+        <Dependent type="1" schemaName="contact" displayName="Contact" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="crt_injury" displayName="Injury" solution="Active" />
+        <Dependent type="1" schemaName="contact" displayName="Contact" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="powerpagessiteaifeedback" displayName="Power Pages Site AI Feedback" solution="PowerPages_RuntimeExtensions (1.1.2501.1)">
+          <package appName="Power Pages Core Package" version="1.1.2508.192">PowerPages_Core (1.1.2508.192)</package>
+        </Required>
+        <Dependent type="1" schemaName="contact" displayName="Contact" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="pp_payment" displayName="Payment" solution="PowerPages_Payments_V2 (1.0.3.0)">
+          <package appName="Power Pages Stripe V2" version="1.0.3.0">PowerPages_Stripe_V2 (1.0.3.0)</package>
+        </Required>
+        <Dependent type="1" schemaName="contact" displayName="Contact" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="crt_title" displayName="Incident Number" parentSchemaName="crt_incident" parentDisplayName="Incident" solution="Active" />
+        <Dependent type="10" schemaName="crt_incident_witnesses" displayName="crt_incident_witnesses" parentSchemaName="crt_incident" parentDisplayName="Incident" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Contact" parentDisplayName="Contact" solution="msdynce_AppCommon (9.0.4.0066)" id="{1fed44d1-ae68-4a41-bd2b-f13acac4acfa}">
+          <package appName="msdynce_AppCommon" version="9.0.25101.10001">msdynce_AppCommonAnchor (9.0.25101.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Contact" parentDisplayName="Contact" id="{1fed44d1-ae68-4a41-bd2b-f13acac4acfa}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="account contact card" parentDisplayName="Contact" solution="msdynce_AppCommon (9.0.4.0066)" id="{29de27bc-a257-4f29-99cf-bab4a84e688f}">
+          <package appName="msdynce_AppCommon" version="9.0.25101.10001">msdynce_AppCommonAnchor (9.0.25101.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Account Test" parentDisplayName="Account" id="{9c360508-0c56-ee11-be6f-000d3a872b21}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="cr409_Accounts.js" displayName="cr409_Accounts.js" solution="Active" />
+        <Dependent type="60" displayName="Account Test" parentDisplayName="Account" id="{9c360508-0c56-ee11-be6f-000d3a872b21}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="crt_/js/clienthooks.js" displayName="crt_/js/clienthooks.js" solution="Active" />
+        <Dependent type="60" displayName="Witness Quick Create" parentDisplayName="Contact" id="{04610ca7-9b01-ec11-94ef-0022481b4907}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="msdyn_/Images/AppModule_Default_Icon.png" displayName="msdyn_/Images/AppModule_Default_Icon.png" solution="AppModuleWebResources (2.5)" />
+        <Dependent type="80" schemaName="jr_PlaywrightTest" displayName="Playwright Test" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="MscrmControls.AutoComplete.AutoCompleteControl" displayName="MscrmControls.AutoComplete.AutoCompleteControl" solution="CustomControlsCore (9.2.25102.00151)">
+          <package appName="Custom Controls Package" version="9.2.25102.00151">CustomControlsCore (9.2.25102.00151)</package>
+        </Required>
+        <Dependent type="60" displayName="Witness Quick Create" parentDisplayName="Contact" id="{04610ca7-9b01-ec11-94ef-0022481b4907}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="MscrmControls.CardFeedContainer.CardFeedContainer" displayName="MscrmControls.CardFeedContainer.CardFeedContainer" solution="BaseCustomControlsCore (9.0.2510.2011)">
+          <package appName="Base Custom Controls" version="9.0.2510.2011">BaseCustomControlsCore (9.0.2510.2011)</package>
+        </Required>
+        <Dependent type="60" displayName="Contact" parentDisplayName="Contact" id="{1fed44d1-ae68-4a41-bd2b-f13acac4acfa}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="MscrmControls.CardFeedContainer.CardFeedContainer" displayName="MscrmControls.CardFeedContainer.CardFeedContainer" solution="BaseCustomControlsCore (9.0.2510.2011)">
+          <package appName="Base Custom Controls" version="9.0.2510.2011">BaseCustomControlsCore (9.0.2510.2011)</package>
+        </Required>
+        <Dependent type="60" displayName="Account Test" parentDisplayName="Account" id="{9c360508-0c56-ee11-be6f-000d3a872b21}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="9" schemaName="crt_contacttype" displayName="Contact Type" solution="Active" />
+        <Dependent type="2" schemaName="crt_contacttype" displayName="Contact Type" parentSchemaName="contact" parentDisplayName="Contact" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="SettingDefinition" displayName="AppChannel" solution="msdyn_AppFrameworkInfraExtensions (1.0.0.15)" id.uniquename="AppChannel">
+          <package appName="PowerAppsAppFramework Package" version="1.0.0.23">PowerAppsAppFramework_Anchor (1.0.0.23)</package>
+        </Required>
+        <Dependent type="AppSetting" displayName="parentappmoduleid.uniquename=jr_PlaywrightTest,settingdefinitionid.uniquename=AppChannel" id.parentappmoduleid.uniquename="jr_PlaywrightTest" id.settingdefinitionid.uniquename="AppChannel" />
+      </MissingDependency>
+    </MissingDependencies>
+  </SolutionManifest>
+</ImportExportXml>

@@ -1,0 +1,25 @@
+{
+  "name": "playwright-d365-framework-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "test:mda": "playwright test --project=mda-tests",
+    "setup:mda": "playwright test --project=mda-setup",
+    "codegen": "playwright codegen"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.56.1",
+    "@types/node": "^24.10.0",
+    "@types/xrm": "^9.0.87",
+    "dotenv": "^17.2.3",
+    "typescript": "^5.9.3"
+  }
+}

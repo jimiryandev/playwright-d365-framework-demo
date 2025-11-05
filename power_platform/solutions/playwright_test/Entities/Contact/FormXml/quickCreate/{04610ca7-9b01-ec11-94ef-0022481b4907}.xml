@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{04610ca7-9b01-ec11-94ef-0022481b4907}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab id="F931FFE2-B873-473F-8F95-9502F0AA3F5E" name="tab_1" showlabel="false" labelid="{18337354-12b0-4825-9232-984fe80e46ad}">
+          <labels>
+            <label description="New Tab" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="34%">
+              <sections>
+                <section id="0C655D4E-C6E3-424E-9AF5-71E72D30D12E" name="witness" columns="1" showlabel="true" showbar="false" IsUserDefined="0" labelwidth="130" labelid="{dcf7e92e-84cd-49f8-9e51-3c005dbd4001}">
+                  <labels>
+                    <label description="Witness" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{f499370c-606d-4d74-a407-5bbc1b9e290f}" locklevel="0" labelid="{f2aaf5cf-0535-45b8-b0eb-ae45ba279f65}">
+                        <labels>
+                          <label description="First Name" languagecode="1033" />
+                        </labels>
+                        <control id="firstname" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="firstname" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{bbd9de4d-8834-4bb0-b66c-efb9bec028a7}" locklevel="0" labelid="{32d3d279-b7db-41b2-9630-fe5e7739387b}">
+                        <labels>
+                          <label description="Last Name" languagecode="1033" />
+                        </labels>
+                        <control id="lastname" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="lastname" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b603d6f4-3ce8-4620-b0fd-d7c8a2c1b09f}" locklevel="0">
+                        <labels>
+                          <label description="Age (only if under 18)" languagecode="1033" />
+                        </labels>
+                        <control id="crt_age" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="crt_age" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{10adcebe-8eae-4934-be66-6e6c1616edf9}" locklevel="0" visible="false">
+                        <labels>
+                          <label description="Contact Type" languagecode="1033" />
+                        </labels>
+                        <control id="crt_contacttype" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="crt_contacttype" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="02DECBA0-3AE2-484D-A19F-C5353AF4F4F2" name="details" columns="1" showlabel="true" showbar="false" IsUserDefined="0" labelwidth="130" labelid="{edeecc2c-b008-4abb-aee1-960c2d470322}" visible="true">
+                  <labels>
+                    <label description="Contact Details" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{233628ec-e7cf-4c1b-82ab-9e30604d3947}" locklevel="1" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Preferred Method of Contact" languagecode="1033" />
+                        </labels>
+                        <control id="preferredcontactmethodcode" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="preferredcontactmethodcode" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{9dc218e9-1652-47b3-bbea-fc79283dd595}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Mobile Phone" languagecode="1033" />
+                        </labels>
+                        <control id="mobilephone" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="mobilephone" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d2db80c5-8de2-44c2-819a-14038fbc391e}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Email" languagecode="1033" />
+                        </labels>
+                        <control id="emailaddress1" classid="{ADA2203E-B4CD-49BE-9DDF-234642B43B52}" datafieldname="emailaddress1" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{f8ce354f-28fd-427b-a007-45d4e719baac}" locklevel="0" labelid="{04f6f0bf-d36d-41e1-b89f-b8bb4092a7e9}" showlabel="true">
+                        <labels>
+                          <label description="Street 1" languagecode="1033" />
+                        </labels>
+                        <control id="address1_line1" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="address1_line1" disabled="false" uniqueid="{7baeb796-e334-81c1-2d18-c04e87e2e231}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{dd41c063-84a9-4c59-a9be-560d807b3cc8}" locklevel="0">
+                        <labels>
+                          <label description="Street 2" languagecode="1033" />
+                        </labels>
+                        <control id="address1_line2" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="address1_line2" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b82d5c20-cfb2-42be-88eb-a59cec0ae6ff}" locklevel="0">
+                        <labels>
+                          <label description="City" languagecode="1033" />
+                        </labels>
+                        <control id="address1_city" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="address1_city" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e28496fc-d664-43c5-bcb9-e47d298d565c}" locklevel="0">
+                        <labels>
+                          <label description="Post Code" languagecode="1033" />
+                        </labels>
+                        <control id="address1_postalcode" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="address1_postalcode" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="46FD66EA-B686-41D9-AAE0-C565BD78EC1F" name="incident" columns="1" showlabel="true" showbar="false" IsUserDefined="0" labelwidth="130" labelid="{a87a8c71-54d4-4cec-9cd4-aede572538d5}">
+                  <labels>
+                    <label description="Incident" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell showlabel="false" locklevel="0" id="{834913a2-e6bb-4bf7-a4a5-0ccee6dd4283}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <controlDescriptions>
+        <controlDescription forControl="{7baeb796-e334-81c1-2d18-c04e87e2e231}">
+          <customControl id="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" formFactor="0">
+            <parameters>
+              <datafieldname>address1_line1</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl id="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" formFactor="1">
+            <parameters>
+              <datafieldname>address1_line1</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl id="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" formFactor="2">
+            <parameters>
+              <datafieldname>address1_line1</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl name="MscrmControls.AutoComplete.AutoCompleteControl" formFactor="-1">
+            <parameters>
+              <value>address1_line1</value>
+              <dataSourceSwitch isGroup="true" static="true">OptionSetGroup</dataSourceSwitch>
+              <source>crt_contacttype</source>
+            </parameters>
+          </customControl>
+        </controlDescription>
+      </controlDescriptions>
+      <DisplayConditions Order="1" FallbackForm="true">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+      <formLibraries>
+        <Library name="crt_/js/clienthooks.js" libraryUniqueId="{4604276c-ad4b-4f05-af8a-ed937883dfcc}" />
+      </formLibraries>
+      <events>
+        <event name="onload" application="true" active="true">
+          <Handlers>
+            <Handler functionName="DataVerse.ClientHooks.WitnessForm.onload" libraryName="crt_/js/clienthooks.js" handlerUniqueId="{aa3ded5d-88b1-4c85-8257-b982a84cd7a4}" enabled="true" parameters="" passExecutionContext="true" />
+          </Handlers>
+        </event>
+        <event name="onchange" application="true" active="true" attribute="preferredcontactmethodcode">
+          <Handlers>
+            <Handler functionName="DataVerse.ClientHooks.WitnessForm.onContactMethodChanged" libraryName="crt_/js/clienthooks.js" handlerUniqueId="{ae7f6cd0-913e-4a42-815f-c58b74d30ed3}" enabled="true" parameters="" passExecutionContext="true" />
+          </Handlers>
+          <dependencies>
+            <dependency id="preferredcontactmethodcode" />
+          </dependencies>
+        </event>
+      </events>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Witness Quick Create" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>
