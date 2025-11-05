@@ -32,7 +32,7 @@ export default defineConfig({
       testMatch: /auth\.setup\.ts/,
       use: {
         ...devices['Desktop Chrome'],
-        viewport: { width: 1920, height: 1080 }
+        viewport: { width: 2560, height: 1440 }
       }
     },
 
@@ -43,7 +43,7 @@ export default defineConfig({
       testIgnore: '**/auth.setup.ts',
       use: {
         ...devices['Desktop Chrome'],
-        viewport: { width: 1920, height: 1080 },
+        viewport: { width: 2560, height: 1440 },
         storageState: 'auth/user.json'
       },
       dependencies: ['mda-setup']
