@@ -133,15 +133,19 @@ test.describe('Account Factory Pattern Demo', () => {
       // STEP 7: Search for the Account
       // ========================================
       console.log('STEP 7: Searching for Contoso account (filtering from 2 accounts)...');
-      await grid.searchGrid('Contoso Corporation');
+      const searchBox = page.locator('input[aria-label*="Search"], input[aria-label*="Filter"]').first();
+      await searchBox.fill('Contoso Corporation');
+      await searchBox.press('Enter');
       await page.waitForTimeout(2000);
       console.log(`✓ Searched for account`);
 
       // ========================================
       // STEP 8: Open the Account Record
       // ========================================
-      console.log('STEP 8: Opening account record using Grid.openNthRecord()...');
-      await grid.openNthRecord(0);
+      console.log('STEP 8: Opening account record...');
+      const accountLink = page.locator(`a[aria-label*="Contoso Corporation"]`).first();
+      await accountLink.click();
+      await xrmHelper.waitForXrmReady();
       console.log(`✓ Opened account form`);
 
       // Give time to see the form
